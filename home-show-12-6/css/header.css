@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+/**{
+	border: solid 1px #111;
+	box-sizing: border-box;
+}*/
+.navbar-brand{
+	transform: translateX(-50%);
+	left: 50%;
+	position: absolute;
+}
+.navbar-header{
+	width: 100%;
+	height: 50px;
+	display: block;
+	top: 50px;
+}
+.navbar{
+	margin-top:50px;
+	margin-bottom: 0;
+}

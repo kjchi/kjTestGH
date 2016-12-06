@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: "Microsoft JhengHei",Arial,sans-serif;
+}
+/*line link pc*/
+#line_pc {
+	float: right;
+	/*background-color: #111;*/
+    padding: 0;
+    margin: 0;
+    height: 240px;
+    width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 30px;
+    text-align: center;
+}
+#lineBox{
+	position: relative;
+	width: 200px;
+	height: 241px;
+	/*border: solid 1px #d42426;*/
+	box-sizing: border-box;
+	margin-top: 0;
+	padding: 0;
+}
+#line_pc #lineBox img{
+	width: 200px;
+	height: 240px;
+	margin-top: 0;
+}
+#line_pc p {
+	background-color: #d42426;
+	color: #fff;
+	font-weight: 700;
+	padding: 5px;
+	margin: 0;
+}
+/*line link mobile*/
+#line_mobile{
+	height: 0;
+	display: none;
+}
+.container{
+	padding: 0;
+	margin-bottom: 0;
+}
+.container .jumbotron{
+	border-radius: 0px;
+	padding: 0;
+	width: 100%;
+    height: 500px;
+    position: relative;
+    background: url("../images/800600/217-1-Bi-Linda-sofa-800x600.png") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.jumbotron{
+	margin-top: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+.jumbotron .opacityLayer{
+	background-color: #fff;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.jumbotron h1{
+	color: #fff;
+	/*text-shadow: 2px 2px #fff;*/
+	background-color: #996633;
+	font-weight: 700;
+	position: relative;
+	z-index: 99;
+	letter-spacing: 0.3em;
+	font-size: 6em;
+}
+.jumbotron h2{
+	color: #d42426;
+	text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+	font-family: cursive;
+	font-weight: 700;
+	position: relative;
+	z-index: 99;
+	letter-spacing: 0.1em;
+	font-size: 4.2em;
+}
+.jumbotron p{
+	z-index: 99;
+	color: #111;
+	text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+	font-weight: 700;
+	font-size: 4em;
+}
+.textOne{
+	font-family: fantasy;
+	color: #111;
+}
+.textTwo{
+	font-family: "Microsoft JhengHei";
+	color: #802000 !important;
+}
+.textThree{
+	font-family: "Microsoft JhengHei";
+	color: #f55505 !important;
+}
+.jumbotron a span{
+	margin: 5px;
+}
+.row{
+	margin: 0;
+}
+.btn-default{
+	border: solid 2px  #ff6600;
+	color:  #ff6600;
+	font-size: 1.2em
+}
+.btn-default:hover{
+	border: solid 2px  #ff6600;
+	color:  #ff6600;
+	font-size: 1.2em
+}
+.textBar{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+.textBar h2{
+	transform: translateY(-50%);
+	top: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+.textList ul{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+.textList ul li h4{
+	background-color: #a71213;
+	color: #fff;
+	font-weight: 700;
+	padding: 5px;
+	display: inline-block;
+}
+.textList ul li p{
+	font-size: 1.2em;
+}
+.textList a{
+	margin-right: 30px;
+}
+.textList a span{
+	margin: 5px;
+}
+.guideMap iframe {
+	width: 100%;
+	height: 300px;
+}
+.photoList ul{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+}
+.photoList ul li{
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 0 10%;
+}
+.col-sm-4{
+	padding-top: 15px;
+}
+/*photo gallery style start*/
+.list-inline{
+	margin: 0;
+	padding: 0;
+}
+.list-inline > li{
+	margin: 0;
+	padding: 1%;
+	width: 33%;
+}
+.img-thumbnail{
+	border-radius: 0px;
+}
+.list-inline > li > a > img {
+	margin: 0 auto;
+	padding: 0;
+}
+/*images hover mask*/
+.hover-mask a {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.hover-mask img {
+	width: 100%;
+	height: auto;
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.hover-mask:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.hover-mask a h2 {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 100%;
+	width: 100%;
+	padding: 30% 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.hover-mask:hover a h2 {
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.hover-mask .glyphicon {
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	color: #fff;
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.hover-mask:hover .glyphicon {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=1)";
+	filter: alpha(opacity=1);
+	opacity: 1;
+}
+
+/*modal and carousel style*/
+.close{
+	color: #fff;
+	opacity: 1 !important;
+}
+.close:hover{
+	color: #fff;
+	opacity: 1 !important;
+}
+.item{
+	padding: 0 10%;
+}
+.modal-header{
+	padding: 0 10%;
+	border-bottom: none;
+}
+
+.modal-content{
+	background-color: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+.carousel-control{
+	background-image: none !important;
+	color: #fff;
+	opacity: 1 !important;
+	width: 10%;
+}
+/*modal vertical center*/
+.modal{
+  	text-align: center;
+  	padding: 0!important;
+}
+
+.modal:before{
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -4px;
+}
+
+.modal-dialog{
+	width: 1100px;
+	height: auto;
+	position: relative;
+	margin: 0;
+  	display: inline-block;
+  	text-align: left;
+  	vertical-align: middle;
+}
+/* block use */
+@media screen and (min-width: 770px) and (max-width: 995px) {
+	.jumbotron h1{
+		font-size: 4em;
+		letter-spacing: 0.1em
+	}
+	.jumbotron h2{
+		font-size: 2.5em;
+	}
+	.jumbotron p{
+		font-size: 2.5em;
+	}
+	.container {
+		width: 100%;
+	    margin: 0;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 769px) {
+	.jumbotron h1{
+		font-size: 4em;
+		letter-spacing: 0.1em
+	}
+	.jumbotron h2{
+		font-size: 2.5em;
+	}
+	.jumbotron p{
+		font-size: 2.5em;
+	}
+	.modal-dialog{
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0;
+	  	display: inline-block;
+	  	text-align: left;
+	  	vertical-align: middle;
+	}
+	.guideMap {
+		margin: 0 auto;
+		padding: 0 ;
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+	}
+	.guideMap iframe {
+		width: 100%;
+		height: auto;
+	}
+	.container .jumbotron{
+		width: 100%;
+	    height: auto;
+	}
+	
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+	.jumbotron h1{
+		font-size: 3em;
+		letter-spacing: 0.1em
+	}
+	.jumbotron h2{
+		font-size: 2em;
+		line-height: 0.8em;
+	}
+	.jumbotron p{
+		font-size: 2em;
+		line-height: 0.8em;
+	}
+	.container .jumbotron{
+		width: 100%;
+		height: auto;
+	    /*height: 300px;*/
+	}
+	
+}
+@media screen and (min-width: 300px) and (max-width: 399px) {
+	.jumbotron h1{
+		font-size: 2.5em;
+		letter-spacing: 0.08em;
+	}
+	.jumbotron h2{
+		font-size: 1.5em;
+		line-height: 0.5em;
+	}
+	.jumbotron p{
+		font-size: 1.5em;
+		line-height: 0.8em;
+	}
+	.container .jumbotron{
+		width: 100%;
+		height: auto;
+	    /*height: 250px;*/
+	}
+	.textList a {
+		font-size: 1.2em;
+		margin-right: 10px;
+	}	
+}
+@media screen and (min-width: 100px) and (max-width: 299px) {
+	.jumbotron h1{
+		font-size: 2em;
+		letter-spacing: 0.04em;
+	}
+	.jumbotron h2{
+		font-size: 1em;
+		line-height: 0.25em;
+	}
+	.jumbotron p{
+		font-size: 1em;
+		line-height: 0.25em;
+	}
+	.container .jumbotron{
+		width: 100%;
+		height: auto;
+	    /*height: 250px;*/
+	}
+	.textList a {
+		font-size: 1.2em;
+		margin-right: 10px;
+	}	
+}
+/*local use*/
+@media screen and (max-width: 769px) {
+	#line_pc{
+		height: 0;
+		display: none;
+	}
+	#line_mobile{
+		display: block;
+		width: 30%;
+		height: auto;
+		position: fixed;
+		right: 0;
+		bottom: 20px;
+	}
+	.jumbotron h1,h2,p{
+		margin-top: 0;
+	}
+	.container .jumbotron {
+		max-width: 100%;
+		height: 350px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.guideMap iframe {
+		width: 100%;
+		height: auto;
+	}
+	.modal-dialog{
+		max-width: 100%;
+		height: auto;
+		position: relative;
+		margin: 0;
+	  	display: inline-block;
+	  	text-align: left;
+	  	vertical-align: middle;
+	}
+}
+@media screen and (max-width: 500px) {
+	.container .jumbotron {
+		max-width: 100%;
+		height: 200px;
+	}
+	.list-inline > li {
+	    float: left;
+    	position: relative;
+    	width: 100%;
+    	padding: 0 10%;
+	}
+}
